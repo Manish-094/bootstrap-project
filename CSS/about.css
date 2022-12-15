@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* //font-family: 'Roboto', sans-serif; */
+}
+/* HEADER STYLE START */
+.navbar1{
+    background-image: linear-gradient(to right,rgba(216, 23, 23, 0.8),rgba(238, 106, 106, 0.8)),url("/images/img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 8rem;
+}
+ul li a{
+    color: white !important;
+}
+.fa{
+    color: white;
+}
+.btn1{
+    border-color: aliceblue;
+}
+/* HEADER STYLE END */
+
+/* FAQ STYLE START */
+.faq-main-container{
+    margin-top: 5rem;
+}
+.faq-container{
+    /* background-color: red; */
+    padding: 5rem 0rem;
+}
+
+/* FAQ STYLE END */
+
+.copyright{
+    margin-top: 8rem;
+}
+
+/* RESPONSIVE CODE START */
+@media (min-width:300px) and (max-width:987px)
+{
+    .navbar1{
+        height: 80vh;
+    }
+
+    .btn{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+/* RESPONSIVE CODE END */

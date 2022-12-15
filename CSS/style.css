@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* //font-family: 'Roboto', sans-serif; */
+}
+/* HEADER STYLE START */
+.navbar1{
+    background-image: linear-gradient(to right,rgba(216, 23, 23, 0.8),rgba(238, 106, 106, 0.8)),url("/images/img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+ul li a{
+    color: white !important;
+}
+.fa{
+    color: white;
+}
+.btn1{
+    border-color: aliceblue;
+}
+/* HEADER STYLE END */
+
+/* BANNER SECTION START */
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.5rem;
+}
+.row1 h1{
+    font-size: 4.5rem;
+}
+.row1 p{
+    font-size: 1.5rem;
+}
+.btn2{
+    color: red;
+}
+/* BANNER SECTION END */
+
+
+/* ABOUT SECTION STYLE START */
+
+.about-container{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.card-body1{
+    text-align: center;
+}
+.about-main-container{
+    background-color: #edeef0;
+}
+
+/* ABOUT SECTION STYLE END */
+
+
+
+/* stayfocused START */
+.stayfocused-container{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+.stayfocused-row{
+    justify-content: space-around;
+}
+.stayfocused-main-container{
+    background-color: rgb(238, 86, 111);
+}
+.stayfocused-col img{
+    width: 1.8rem;
+    margin: 1rem;
+}
+/* stayfocused START */
+
+/* CONATACT START */
+.contant-row{
+    justify-content: space-between;
+}
+
+/* CONATACT END */
+
+
+/* FOOTER  STYLE START */
+.footer-containner{
+    margin-top: 12rem;
+}
+.footer-main-container{
+    background-color:rgb(234, 243, 240);
+}
+
+.copyright{
+    margin-top: 8rem;
+}
+/* FOOTER STYLE END */
+
+
+/* RESPONSIVE CODE START */
+
+@media (min-width:300px) and (max-width:987px){
+    .navbar1{
+        height: 150vh;
+    }
+    .carousel-indicators{
+        position: absolute;
+        bottom: 10rem;
+    }
+    .learn-btn{
+        margin-bottom: 2rem;
+    }
+    .submit-btn{
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+@media (min-width:300px) and (max-width:544px)
+{
+    .row1 h1{
+        font-size: 2rem;
+    }
+}
+
+/* RESPONSIVE CODE END */
